@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Homa</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         color: #1c1c1e; background: #fff; padding: 24px 20px 56px; max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 30px 0 8px; }
+  p, li { color: #2c2c2e; }
+  a { color: #0a84ff; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .nav { display: flex; gap: 16px; flex-wrap: wrap; padding: 14px 0; border-bottom: 1px solid #e5e5ea; margin-bottom: 8px; font-size: 14px; }
+  .updated { color: #8e8e93; font-size: 13px; margin: 4px 0 24px; }
+  .foot { margin-top: 40px; padding-top: 16px; border-top: 1px solid #e5e5ea; color: #8e8e93; font-size: 13px; }
+  @media (prefers-color-scheme: dark) { body { background: #000; color: #f2f2f7; }
+    p, li { color: #e5e5ea; } .nav, .foot { border-color: #38383a; } .updated { color: #98989f; } }
+</style>
+</head>
+<body>
+  <div class="nav">
+    <a href="index.html">Home</a>
+    <a href="terms.html">Terms of Use</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="support.html">Support</a>
+  </div>
+  <h1>Privacy Policy</h1>
+  <div class="updated">Homa · Effective date: 2026-09-29</div>
+
+  <p>Homa is built so that your memories stay on your device. This policy explains what Homa does and does not do with your data.</p>
+
+  <h2>1. Data We Collect — and What We Do Not</h2>
+  <p>Homa does <strong>not</strong> operate a backend account tied to you and does <strong>not</strong> upload your photos, notes, voice memories or restored outputs to any Homa server. All of this content is stored locally on your device using on-device storage (Apple SwiftData).</p>
+  <p>We do <strong>not</strong> use analytics SDKs, advertising SDKs, or attribution SDKs, and we do <strong>not</strong> sell or share your personal data with third parties.</p>
+
+  <h2>2. On-Device vs Account Storage</h2>
+  <p>Homa has no account and no login. Everything you create is on-device. There is no cloud profile for us to retain. If you remove the app or use Settings → Clear All Data, the local data is removed from the device. Because there is no account, there is no separate "account deletion" step — clearing all data on the device removes everything Homa holds about you.</p>
+
+  <h2>3. Device Permissions, As Implemented</h2>
+  <ul>
+    <li><strong>Camera</strong> — requested on demand when you tap Scan Photo, to capture a printed photo. Images are processed on device.</li>
+    <li><strong>Photos (read)</strong> — requested on demand when you tap Choose Photo, to import an existing photo you select. Homa accesses only the items you choose.</li>
+    <li><strong>Photos (add-only write)</strong> — requested on demand when you tap Save Image, to save a restored page into your photo library. Homa requests add-only access and does not read your library.</li>
+    <li><strong>Microphone</strong> — requested on demand for Record Memory and audio capture. Audio is stored locally on your device.</li>
+    <li><strong>Speech Recognition</strong> — requested on demand (together with the microphone) for Speak Details, to convert your speech to text locally for the matching field. Audio is not sent to Homa servers.</li>
+  </ul>
+
+  <h2>4. App Tracking Transparency (ATT)</h2>
+  <p>Homa shows the ATT prompt once on your first home screen <strong>only because the system requires it</strong>. Homa does <strong>not</strong> read your advertising identifier (IDFA), does <strong>not</strong> perform cross-app tracking, and does <strong>not</strong> integrate any advertising or attribution SDK. Whether you allow or deny, Homa's behavior is identical and no tracking occurs.</p>
+
+  <h2>5. Notifications</h2>
+  <p>Homa shows the Notifications prompt once on your first home screen <strong>only because the system requires it</strong>. Homa does <strong>not</strong> register for remote push notifications and does <strong>not</strong> send you any notifications — local or remote. Allowing or denying the prompt changes nothing in Homa.</p>
+
+  <h2>6. In-App Purchases and StoreKit</h2>
+  <p>In-app purchases are processed by Apple through StoreKit 2. Apple is the merchant of record and handles your payment information; Homa does not receive or store your card details. Homa keeps an on-device record of completed transactions and your remaining Page Credit balance so the app can grant and consume credits. These records stay on your device.</p>
+
+  <h2>7. Third Parties</h2>
+  <p>The only third party involved in Homa's operation is Apple — for the App Store / StoreKit purchases and for the device system frameworks that provide the camera, photos, microphone and speech capabilities you explicitly use. Homa does not share your data with any other party.</p>
+
+  <h2>8. Sample and Demo Content</h2>
+  <p>To help you learn the app, Homa may include sample or demo content stored locally on your device. This content is also removed when you use Clear All Data.</p>
+
+  <h2>9. Children</h2>
+  <p>Homa is not directed to children under 13 and does not knowingly collect data from them. Because Homa stores no account data, it does not profile any user.</p>
+
+  <h2>10. Your Privacy Requests</h2>
+  <p>For any privacy question or request, contact us at <a href="mailto:legal@homa.example">legal@homa.example</a>. Since Homa holds no server-side account data about you, the most direct way to remove your data is Settings → Clear All Data on your device.</p>
+
+  <div class="foot">
+    Homa Privacy Policy. Also see the <a href="terms.html">Terms of Use</a>.
+  </div>
+</body>
+</html>
