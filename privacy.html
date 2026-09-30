@@ -34,7 +34,7 @@
   <p>Homa is built so that your memories stay on your device. This policy explains what Homa does and does not do with your data.</p>
 
   <h2>1. Data We Collect — and What We Do Not</h2>
-  <p>Homa does <strong>not</strong> operate a backend account tied to you and does <strong>not</strong> upload your photos, notes, voice memories or restored outputs to any Homa server. All of this content is stored locally on your device using on-device storage (Apple SwiftData).</p>
+  <p>Homa does <strong>not</strong> operate a backend account tied to you and does <strong>not</strong> upload your photos, notes, voice memories or restored outputs to any Homa server. All of this content is stored locally on your device using on-device storage (Apple SwiftData). Names you type in the People field are stored only on the device. Homa does not recognize faces.</p>
   <p>We do <strong>not</strong> use analytics SDKs, advertising SDKs, or attribution SDKs, and we do <strong>not</strong> sell or share your personal data with third parties.</p>
 
   <h2>2. On-Device vs Account Storage</h2>
@@ -46,7 +46,7 @@
     <li><strong>Photos (read)</strong> — requested on demand when you tap Choose Photo, to import an existing photo you select. Homa accesses only the items you choose.</li>
     <li><strong>Photos (add-only write)</strong> — requested on demand when you tap Save Image, to save a restored page into your photo library. Homa requests add-only access and does not read your library.</li>
     <li><strong>Microphone</strong> — requested on demand for Record Memory and audio capture. Audio is stored locally on your device.</li>
-    <li><strong>Speech Recognition</strong> — requested on demand (together with the microphone) for Speak Details, to convert your speech to text locally for the matching field. Audio is not sent to Homa servers.</li>
+    <li><strong>Speech Recognition</strong> — requested on demand, after the microphone, when you tap Speak Details. Homa uses on-device recognition when this iPhone supports it and shows the text for you to confirm before it is saved. If on-device recognition is unavailable, Homa does not upload the audio and you type the date, place, people, and note instead.</li>
   </ul>
 
   <h2>4. App Tracking Transparency (ATT)</h2>
@@ -61,8 +61,8 @@
   <h2>7. Third Parties</h2>
   <p>The only third party involved in Homa's operation is Apple — for the App Store / StoreKit purchases and for the device system frameworks that provide the camera, photos, microphone and speech capabilities you explicitly use. Homa does not share your data with any other party.</p>
 
-  <h2>8. Sample and Demo Content</h2>
-  <p>To help you learn the app, Homa may include sample or demo content stored locally on your device. This content is also removed when you use Clear All Data.</p>
+  <h2>8. What Clear All Data Removes</h2>
+  <p>Homa does not ship sample photos. Everything in the archive is a photo you scanned or imported. Settings → Clear All Data deletes photo entries, restored versions, voice recordings, memory-page PNG files, and the remaining Page Credit balance from this device. That balance cannot be restored. There is no account to delete because Homa has no login.</p>
 
   <h2>9. Children</h2>
   <p>Homa is not directed to children under 13 and does not knowingly collect data from them. Because Homa stores no account data, it does not profile any user.</p>
